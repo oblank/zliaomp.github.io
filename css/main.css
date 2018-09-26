@@ -450,7 +450,7 @@ body {
 }
 .header-inner {
   margin: 0 auto;
-  padding: 100px 0 70px;
+  padding: 10px 0 0px;
   width: 700px;
 }
 @media (min-width: 1200px) {
@@ -1285,9 +1285,6 @@ pre .javascript .function {
 .use-motion .collection-title {
   opacity: 0;
 }
-.posts-expand {
-  padding-top: 40px;
-}
 @media (max-width: 767px) {
   .posts-expand {
     margin: 0 20px;
@@ -1848,7 +1845,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #05ff08;
+  background: #c2b94a;
 }
 .links-of-blogroll {
   font-size: 13px;
