@@ -6,7 +6,7 @@
     "version": "3.7.1"
   },
   "scripts": {
-    "publish": "hexo g && hexo d",
+    "publish": "hexo g && cp ./source/app-ads.txt ./public/ && hexo d",
     "update": "git add . && git commit -m 'update' && git push origin master"
   },
   "dependencies": {
